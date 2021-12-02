@@ -1,0 +1,77 @@
+
+*{
+    font-family:"Titress";
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: url("img\\floue.jpg") no-repeat center fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#mail{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#mdp{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#valider{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+legend{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+}
+
+p{
+    text-align:center;
+    color:white;
+
+}
+input,
+.notes>label{
+    font-family: "SundayMonday";
+    font-weight:bold;
+}
+.notes>label{
+    color:white;
+}
+@font-face{
+    font-family:"SundayMonday";
+    src:url("img\\fonts\\SundayMonday.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "Titress";
+    src: url("img\\fonts\\Cocogoose-Pro-Semilight-trial.ttf") format("truetype");
+}
+#valider{
+    color:black;
+}

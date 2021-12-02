@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Petit Creux</title>
+    <link rel='stylesheet' type='text/css' href='homestyle.css'>
+    <link rel="icon" type="image/png" href="img\petitcreux.png" />
+  </head>
+  <body>
+    <header id="main-head">
+      <nav>
+	<div>
+	<ul class="bar">
+		<li id="return" href="#" onclick = "history.go(-1)"><img src='img\arrow.png' alt="fleche"></li>
+		<li><a id="button" href="index.html">Accueil</a></li>
+    <li class="deroulant"><a id="button" href="pays.html">Pays</a>
+  </li>
+  <li class="deroulant"><a>Mon compte</a>
+            <ul class="under">
+            <li><a href="informations.html">Informations</a></li>
+            <li><a href="deconnexion.html">Se deconnecter</a></li>
+            </ul>
+  </li>
+	</ul>
+	</div>
+	
+	<h1 id="logo"><img src="img\LOGOBO.png" alt="logo"></h1>
+	
+	<div>
+	<ul class="bouton">
+    <li><a id="button" href="#">Traduction</a></li>
+	  <li><a id ="button" href="connexion.php">Connexion</a></li>
+    <li><a id="signup" href="inscription.php">Inscription</a></li>
+	</div>
+  </nav>
+ 
+    </header>
+		<div id="content_header"></div>
+		<div id="site_content">
+			<div class="slider">
+				<div class="slides">
+					<div class="slide"><img src="style\1.jpg" alt="" /></div>
+					<div class="slide"><img src="style\2.jpg" alt="" /></div>
+					<div class="slide"><img src="style\3.jpg" alt="" /></div>
+				</div>
+			</div>
+		  <div id="sidebar_container">
+			<div class="sidebar">
+			  <div class="sidebar_top"></div>
+			  <div class="sidebar_item">
+				<h3>Rechercher</h3>
+				<form method="post" action="#" id="search_form">
+				  <p>
+					<input class="search" type="text" name="search_field" value="Entrer un plat....." />
+					<input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+				  </p>
+				</form>
+				<figure>
+					<figcaption>Vous écoutez: joakim karud-chill</figcaption>
+					<audio controls
+						src="style/joakimkarudchill.mp3"loop="true" >
+					</audio>
+				</figure>
+			  </div>
+			  <div class="sidebar_base"></div>
+			</div>
+		  </div>
+		  <div id="content">
+			<h1>Bienvenue sur le site du Petit Creux. </h1>
+			<p>Vous pouvez ici retrouver des recettes de cuisine pour des petites et des grosses faims.<br />
+				Les recettes proposées sont des recettes vous faisant voyager. Vous irez de part le monde tout en restant à table, à faire frétiller vos papilles, frémir vos sens.<br />
+				<br />
+				Les pays que nous vous proposons de visiter sont :<br />
+				-	La France, connue pour la mode, la romance et la gastronomie ;<br />
+				-	Le Japon, connu pour sa culture bien différente, ses temples, ses légendes, et bien d’autres choses encore ;<br />
+				-	Le Mexique, connu pour ses plats épicés, ses fêtes mouvementées et ses couleurs vives ;<br />
+				-	L’Italie, connue pour son architecture, ses célèbres musées, ses pizzas, son histoire avec l’Antiquité ;<br />
+				-	Les Etats-Unis, connu pour les films à gros budget, les enseignes de restauration rapide, ses gratte-ciels ;<br />
+				-	Le Vietnam, connu pour avoir longtemps été colonisé, … ;<br />
+				<br />
+				Nous vous invitons à vous évader, par le biais de votre goût, vers des territoires riches et variés à votre portée. Nous vous souhaitons donc une bonne dégustation ! 
+				</p>
+				<p>Si vous voulez télécharger le pdf du logo c'est <a href="img\logo.pdf" download >ici</a>. Merci à vous !</p>
+		  </div>
+		</div>
+		<div id="footer">
+		  <p><a href="#">Acceuil</a> | <a href="pays.html">Pays</a> 
+		  <p>Copyright &copy; Ertay </p>
+		</div>
+	  </div>
+</body>
+</html>
